@@ -6,5 +6,5 @@ wget -O /etc/apt/sources.list.d/scylla.list http://downloads.scylladb.com/deb/de
 apt-get update
 apt-get install -y scylla
 scylla_io_setup
-systemctl enable scyla-service
-systemctl start scyla-service
+systemctl enable scyla-server
+systemctl start scyla-server
